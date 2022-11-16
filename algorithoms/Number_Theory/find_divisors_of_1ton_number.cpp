@@ -25,7 +25,6 @@ int main(){
     for(auto u : divisors[i]) cout<<u<<" ";
     cout<<endl;
    }
-  
 
    return 0;
 }
