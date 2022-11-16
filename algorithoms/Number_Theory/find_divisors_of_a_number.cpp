@@ -23,6 +23,5 @@ int main(){
   sort(divisors.begin(),divisors.end());
   for(auto u:divisors) cout<<u<<" ";
   cout<<endl;
-
    return 0;
 }
