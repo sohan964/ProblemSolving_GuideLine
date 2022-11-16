@@ -3,7 +3,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
+//this for policy based DS
+#include<ext/pb_ds/assoc_container.hpp>
+using namespace __gnu_pbds;
+typedef tree <long long, null_type, less_equal<long long>,rb_tree_tag,tree_order_statistics_node_update> pbds_set;
+// up to this
+
+typedef long long   ll;
+typedef unsigned long long ull;
 typedef vector<int> vi;
 typedef vector<ll> vl;
 typedef vector<vi> vvi;
@@ -14,6 +21,7 @@ typedef pair<ll,ll> pll;
 typedef vector<pii> vpii;
 typedef vector<pll> vpll;
 typedef double dl;
+typedef vector<int>::iterator vi_it;
 
 
 #define endl '\n'
@@ -21,6 +29,9 @@ typedef double dl;
 #define S second
 #define PB push_back
 #define PF push_front
+#define B begin
+#define E end
+
 
 
 #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -28,7 +39,10 @@ typedef double dl;
 
 int main(){
   optimize();
-   
+
+    
    
     
+    
+   return 0;
 }
