@@ -12,8 +12,10 @@ void primeIdent( int n){
   memset(is_prime,1,sizeof(is_prime));
   is_prime[1]=0;
   for(int i=2;i<=n;i++){
+    if(is_prime[i] == 1){
     for(int j=i+i; j<=n; j+=i){
       is_prime[j] = 0;
+     }
     }
   }
   for(int i=2;i<=n;i++){
