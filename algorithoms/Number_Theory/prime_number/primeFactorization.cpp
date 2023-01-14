@@ -58,7 +58,7 @@ int main(){
      
      map<long long,int> cnt;
      for(auto u:ans) cnt[u]++;
-
+    
      for(auto u:cnt) cout<<u.first<<"^"<<u.second<<endl;
 
    return 0;
