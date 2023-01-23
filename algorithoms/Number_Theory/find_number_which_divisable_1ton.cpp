@@ -8,7 +8,6 @@ const int mx = 1e6+123;
 vector<int> divisors[mx];
 int main(){
   optimize();
-  
   //find 1 to n are which numbers divisors
   int n; cin>>n;
   for(int i=1;i<=n;i++){
