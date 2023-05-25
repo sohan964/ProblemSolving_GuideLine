@@ -8,6 +8,7 @@ typedef long long ll;
 #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 #define endl  '\n'
 #define TC() int t; cin>>t; while(t--){ solve(); }
+
  // previusly calculate fibo will store each index of the array.
  int dp[1000];
 
